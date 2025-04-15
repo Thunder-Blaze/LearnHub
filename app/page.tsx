@@ -87,7 +87,7 @@ export default function Home() {
               </div>
             </div>
             <img
-              src="/placeholder.svg?height=550&width=800"
+              src="https://www.shutterstock.com/image-illustration/central-computer-processors-cpu-concept-600nw-2128046906.jpg"
               width="550"
               height="400"
               alt="Students collaborating"

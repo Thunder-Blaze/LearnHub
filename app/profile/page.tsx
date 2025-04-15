@@ -11,7 +11,7 @@ const studentData = {
   department: "Computer Science",
   year: "Third Year",
   email: "alex.johnson@university.edu",
-  profileImage: "/placeholder.svg?height=200&width=200",
+  profileImage: "https://i.pinimg.com/736x/f3/58/73/f3587343df2a97bf6f738bc33547c83d.jpg",
   events: [
     { name: "Tech Symposium 2023", role: "Participant", date: "Oct 15, 2023" },
     { name: "Hackathon 2023", role: "Team Leader", date: "Sep 5, 2023" },
