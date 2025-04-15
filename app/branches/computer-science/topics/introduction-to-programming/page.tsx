@@ -1,8 +1,10 @@
+"use client"
+
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Progress } from "@/components/ui/progress"
 import { Badge } from "@/components/ui/badge"
-import { BookOpen, Clock, FileText, PlayCircle } from "lucide-react"
+import { BookOpen, Clock, FileText, Link, PlayCircle } from "lucide-react"
 
 export default function IntroductionToProgrammingPage() {
   return (
@@ -103,10 +105,12 @@ export default function IntroductionToProgrammingPage() {
                 <FileText className="w-4 h-4" />
                 Download Slides
               </Button>
-              <Button variant="outline" className="w-full justify-start gap-2">
-                <BookOpen className="w-4 h-4" />
-                Reading Materials
-              </Button>
+              <Button variant="outline" className="w-full justify-start gap-2" onClick={() => window.open("https://www.freecodecamp.org/news/learn-programming-in-cpp/", "_blank")}>
+                  {/* <Link href="https://www.freecodecamp.org/news/learn-programming-in-cpp/"> */}
+                    <BookOpen className="w-4 h-4" />
+                    Reading Materials
+                  {/* </Link> */}
+                </Button>
             </CardContent>
           </Card>
 
